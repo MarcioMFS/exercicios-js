@@ -30,7 +30,7 @@ body{
     font-size: 60px;
     position: relative;
     background:linear-gradient(to right, #00d2ff, #3a7bd5); ;
-    animation: text1 6s 1;
+    animation: text1 5s 1;
     color: #fff;
 }
 
@@ -38,19 +38,19 @@ body{
     font-size: 60px;
     color: #fff;
     background:linear-gradient(to right, #00d2ff, #3a7bd5);
-    animation: text1 6s 1;
+    animation: text1 8s 1;
 }
 
 .text3{
     font-size: 60px;
-    animation: text3 10s 1;
+    animation: text3 8s 1;
     color: #fff;
 
 }
 
 
 .text3 button{
-    animation: button 12s 1;
+    animation: button 10s 1;
     position: relative;
     width: 50px;
     height: 50px;
@@ -106,6 +106,20 @@ body{
     margin: 0 auto;
 }
 
+
+.questions button{
+    padding: 5px;
+    background: #0077ff;
+    color: #fff;
+    border: none;
+    transition: all .2s
+
+}
+
+.questions button:hover{
+    background: #00d9ff;
+    transform: scale(1.1)
+}
 
 
 @keyframes button {
