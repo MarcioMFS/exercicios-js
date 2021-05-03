@@ -312,19 +312,19 @@ let ordem = () => {
     n3 = parseFloat(prompt("Digite o terceiro numero:"))
 
     num = n1
-    if(n2 > n1){
+    if(n2 < n1){
         num=n2;
         n2=n1;
         n1=num;
        }
   
-       if(n3 > n1){
+       if(n3 < n1){
         num=n3;
         n3=n1;
         n1=num;
        }
   
-       if(n3 > n2){
+       if(n3 < n2){
         num=n3;
         n3=n2;
         n2=num;
