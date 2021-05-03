@@ -47,8 +47,20 @@ let media = () =>{
     ex2.innerHTML = 
     `
         <h3>Resultados<h3>
-    <p>Notas digitadas: ${n1}, ${n2}, ${n3}</p>
-    <p>Resultado: ${media.toFixed(1)} </p>
+        <table>
+        <tr>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <th>Nota 3</th>
+        <th>Media</th>
+        </tr>
+        <tr>
+        <td>${n1}</td>
+        <td>${n2}</td>
+        <td>${n3}</td>
+        <td>${media.toFixed(1)}</td>
+        </tr>
+        </table>    
     `
 }
 
