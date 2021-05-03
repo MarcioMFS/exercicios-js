@@ -62,8 +62,8 @@ let salario = () => {
     `
         <h3>Calculo de aumento de salário<h3>
     <p>Olá ${nome}</p>
-    <p>${nome}, Seu salario antigo é de: ${salario}</p>
-    <p>${nome}, Seu novo salario é de: ${novoSal.toFixed(2)} </p>
+    <p>${nome}, Seu salario antigo é de: ${salario}R$</p>
+    <p>${nome}, Seu novo salario é de: ${novoSal.toFixed(2)}R$ </p>
     `
 }
 
@@ -80,8 +80,8 @@ let  salGratif = () => {
     `
         <h3>Calculo de gratificação e imposto<h3>
     <p>Olá ${nome}</p>
-    <p>${nome}, Seu salario base é de: ${salario}</p>
-    <p>${nome}, Seu novo salario com gratificação e impostos é de: ${novoSal.toFixed(2)} </p>
+    <p>${nome}, Seu salario base é de: ${salario}R$</p>
+    <p>${nome}, Seu novo salario com gratificação e impostos é de: ${novoSal.toFixed(2)}R$ </p>
     `
 
 }
@@ -134,14 +134,14 @@ let aumento = () => {
         `
             <h3>Aumento de salário<h3>
         <p>Olá ${nome}, você tem direito a aumento</p>
-        <p>O seu novo salário é de: ${novoSal}</p>
+        <p>O seu novo salário é de: ${novoSal}R$</p>
         `
     }else{
         ex7.innerHTML = 
         `
             <h3>Aumento de salário<h3>
         <p>Olá ${nome}, não tem direito a aumento </p>
-        <p>O seu salário é de: ${salario}</p>
+        <p>O seu salário é de: ${salario}R$</p>
         `
     }
 }
