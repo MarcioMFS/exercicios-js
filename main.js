@@ -1,3 +1,5 @@
+/*Codigo feito por: Márcio Mendonça*/
+
 let btn = document.getElementById("button");
 let exercises = document.querySelector(".exercises");
 let container = document.querySelector(".container");
