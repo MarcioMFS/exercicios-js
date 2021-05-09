@@ -118,9 +118,16 @@ let maiorde2 = () =>{
     let n1,n2
     n1 = parseInt(prompt("Digite o primeiro numero"))
     n2 = parseInt(prompt("Digite o segundo numero"))
-    if(n1 < n2){
+    if(n1 > n2){
         ex6.innerHTML = 
     `
+        <h3>Numero maior<h3>
+    <p>Numeros digitados: ${n1}, ${n2}</p>
+    <p>O ${n1} é o maior</p>
+    `
+    }else if(n2 > n1){
+        ex6.innerHTML = 
+        `
         <h3>Numero maior<h3>
     <p>Numeros digitados: ${n1}, ${n2}</p>
     <p>O ${n2} é o maior</p>
@@ -130,7 +137,7 @@ let maiorde2 = () =>{
         `
         <h3>Numero maior<h3>
     <p>Numeros digitados: ${n1}, ${n2}</p>
-    <p>O ${n1} é o maior</p>
+    <p>Os numeros digitados são iguais!</p>
     `
     }
 }   
